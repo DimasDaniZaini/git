@@ -1,0 +1,94 @@
+<!-- This is comment -->
+
+<html>
+    <head>
+        <title>Belajar HTML</title>
+    </head>
+    <body>
+        <h1>Beberapa Jenis Tag HTML</h1>
+        <p>1. Tag "br/" untuk membuat new singgle line</p>
+        <p>2. Tag "b" untuk bold text seperti <b>ini</b></p>
+        <p>3. Tag "big" untuk membuat teks besar seperti <big>ini</big></p>
+        <p>4. Tag "i" untuk membuat italic seperti <i>ini</i></p>
+        
+        <h1>Beberapa Atribut HTML</h1>
+        <p align="center"> Ini adalah atribut center</p>
+        <hr width="50px"> </hr>
+        <p>Di bawah ini merupakan contoh gambar!</p>
+        <img src="midoriya.jpg" height="1t50px" border="1px"/>
+
+        <h1>Order List dan Unorder List</h1>
+        <ol>
+            <li>Ini adalah ol 1</li>
+            <li>Ini adlaah ol 2</li>
+        </ol>
+        <ul>
+            <li>Ini adalah ul 1</li>
+            <li>Ini adalah ul 2</li>
+        </ul>
+
+        <h1>Contoh Table</h1>
+        <table border="2"> <!-- Jangan lupa dikasih border -->
+            <tr> <!-- tr = table row (baris) -->
+                <td>Kolom 1</td>
+                <td bgcolor="green">Kolom 2</td> <!-- bgcolor = memberi background color -->
+                <td>Kolom 3</td>
+            </tr>
+            <tr> 
+                <td>Kolom 1</td>
+                <td colspan="2">Kolom 2 & 3</td> <!-- Nyatuin 2 kolom jadi satu -->
+            </tr>
+        </table>
+
+        <h1>Contoh Link</h1>
+        <a href="https://www.sololearn.com/profile/14714479"> Link Sololearn (buka di web ini) <br/></a>
+        <a href="https://www.sololearn.com/profile/14714479" target="_blank"> Link Sololearn (buka di web baru)</a>
+
+        <h1>Contoh div</h1>
+        <div style="background-color:green; color:white; padding:30px">
+            <p>Ini adalah kalimat 1</p>
+            <p>Ini adalah kalimat 2</p>
+        </div>
+
+        <h1>Contoh Form</h1>
+        <input type="text" name="username"/> <br/>
+        <input type="email" name="email"/> <br/>
+        <input type="password" name="password"/> <br/>
+        <input type="submit" />
+
+        <h1>Contoh Selection</h1>
+        <input type="radio" name="Gender" /> Laki-Laki <br/>
+        <input type="radio" name="Gender"/> Perempuan <br/>
+
+        <h1>
+            <font color = "#0000FF"> Blue Headline</font>
+        </h1>
+
+        <h1>Progress HTML</h1>
+        <progress min="0" max="100" value="80"></progress> <br/>
+        <progress min="0" max="100" value="30"></progress>
+        
+        <!-- <h1>Contoh Frame Video</h1>
+        <iframe height="150px" width="200px" tesec="https://www.youtube.com/watch?v=Oo52vQyAR6w" allowfullscreen frameborder="2px"></frame> -->
+            
+            <!-- Struktur Dasar HTML5 
+                Header, Nav, Article, Selection, Aside, Footer 
+                Semuanya ada di dalam Body
+            -->
+            
+        <h1>Contoh Audio Tanpa Loop</h1>
+        <audio src="Musik.mp3" controls> Audio tidak didukung</audio> <br/>
+
+        <h1>Contoh Audio dengan Loop dan Autoplay</h1>
+        <audio controls autoplay loop>
+            <source src="Hero.mp3"/>
+            Audio tidak didukung
+        </audio>
+
+        <h1>Contoh Video</h1>
+        <video controls>
+            <source src="boku.mp4">
+            Video tidak didukung
+        </video>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+body {
+    background-image: url("http://www.sololearn.com/uploads/css_logo.png");
+    background-attachment: fixed;/* Agar gambar tidak bergerak saat di scroll */
+    background-repeat: no-repeat; /* Agar gambar kecil tidak berulang
+    Bisa juga diganti jadi scroll, kalau gambarnya mau netap di tempat*/
+}
+
+p {
+    color:green;
+}
+
+#p2 em { 
+    /*
+        Kalau id, menggunakan #, kalau class menggunakan ., kalau tag langsung
+    */
+    color:black;
+}
+
+#font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#small {
+    font-size: small;
+}
+#medium {
+    font-size: medium;
+}
+#large {
+    font-size: large;
+}
+#xlarge {
+    font-size: x-large;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#bold {
+    font-weight: bold; /* Atau bisa juga pakai 70 */
+}
+
+#small_caps {
+    font-variant: small-caps;
+}
+
+#align_right {
+    text-align: right;
+}
+
+#top {
+    vertical-align: top;
+}
+#middle {
+    vertical-align: middle;
+}
+#bottom{
+    vertical-align: bottom;
+}
+
+#underline {
+    text-decoration: underline;
+}
+#line_through {
+    text-decoration: line-through;
+}
+
+#blink {
+    text-decoration: blink; 
+}
+
+#indent {
+    /*
+        Jarak spasi horizontal
+    */
+    text-indent: 150px;
+}
+
+#shadow {
+    text-shadow: 5px 2px 3px gray;
+    /*
+        5px --> Horizontal
+        2px --> Vertical
+        3px --> Blur
+    */
+}
+
+#letter_spacing {
+    letter-spacing: 5px;
+}
+
+#word_spacing {
+    word-spacing: 5px;
+}
+
+#weight {
+    white-space: nowrap;
+}
+
+#padding {
+    padding: 5px;
+    color: red;
+    border: 5px solid green;
+}
+
+#list1 {
+    list-style-type: circle; 
+    /* Kalau mau a, b, c, dsb, maka lower-alpha; */
+}
+
+#list2 {
+    list-style-image: url("http://www.sololearn.com/uploads/css_logo.png");
+    list-style-position: inside;
+    /* Kalau mau a, b, c, dsb, maka lower-alpha; */
+}
+
+caption {
+    caption-side: top;
+}
+
+#hide {
+    empty-cells: hide;
+    /* Kolom kosong akan disembunyikan */
+}
+
+#link {
+    color: red;
+}
+
+#inline {
+    display: inline;
+}
+
+#float {
+}
